@@ -1,2 +1,2 @@
-# python-terminalizer2asciinema
+# terminalizer2asciinema
 convert file in terminalizer format to asciinema format

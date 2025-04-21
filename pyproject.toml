@@ -1,0 +1,47 @@
+[project]
+name = "terminalizer2asciinema"
+version = "0.1.0"
+description = "convert file in terminalizer format to asciinema format"
+authors = [
+    {name = "Siak Hooi",email = "siakhooi@gmail.com"}
+]
+keywords = [ "terminalizer", "asciinema" ]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Build Tools",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: File Formats",
+    "Topic :: Utilities"
+]
+
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "termcolor (>=3.0.1,<4.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)"
+]
+
+[project.urls]
+homepage = "https://github.com/siakhooi/python-terminalizer2asciinema"
+repository = "https://github.com/siakhooi/python-terminalizer2asciinema"
+documentation = "https://github.com/siakhooi/python-terminalizer2asciinema/wiki"
+"Bug Tracker" = "https://github.com/siakhooi/python-terminalizer2asciinema/issues"
+
+[project.scripts]
+terminalizer2asciinema = 'terminalizer2asciinema.cli:run'
+
+
+[tool.poetry]
+packages = [{include = "terminalizer2asciinema", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.1.1"
+flake8 = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

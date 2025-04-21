@@ -29,7 +29,8 @@ jobs:
       - run: poetry run flake8
       - run: poetry build
       - run: |
-          poetry run pytest --junit-xml=coverage/test-results.xml \
+          poetry run pytest --capture=sys \
+            --junit-xml=coverage/test-results.xml \
             --cov=terminalizer2asciinema \
             --cov-report term-missing  \
             --cov-report xml:coverage/coverage.xml \

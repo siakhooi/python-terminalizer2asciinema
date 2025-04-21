@@ -1,0 +1,13 @@
+{"version": 2, "width": 50, "height": 7, "timestamp": 1745223672, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.01, "o", "\r$ "]
+[0.11, "o", "s"]
+[0.21, "o", "h"]
+[0.31, "o", "e"]
+[0.41, "o", "d"]
+[0.51, "o", "-"]
+[0.61, "o", "e"]
+[0.71, "o", "n"]
+[0.81, "o", "v"]
+[0.91, "o", "\r\nEDITOR=nano\r\nSHED_CODE=P\r\nSHED_CONFIG_FILE=/home/siakhooi/.shed/config.yaml\r\nSHED_CONFIG_HOME=/home/siakhooi/.shed\r\nSHED_KUBECONFIG_NUMBER=0\r\n"]
+[0.92, "o", "$ "]
+[4.92, "o", "\r\n"]

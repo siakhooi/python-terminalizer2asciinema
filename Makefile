@@ -13,7 +13,8 @@ flake8:
 update:
 	poetry update
 test:
-	 poetry run pytest --junit-xml=coverage/test-results.xml \
+	 poetry run pytest  --capture=sys \
+	 --junit-xml=coverage/test-results.xml \
 	 --cov=terminalizer2asciinema \
 	 --cov-report term-missing  \
 	 --cov-report xml:coverage/coverage.xml \

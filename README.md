@@ -17,6 +17,7 @@ $ terminalizer2asciinema yamlfile
 ## Links
 - https://pypi.org/project/terminalizer2asciinema/
 - https://github.com/siakhooi/python-terminalizer2asciinema
+- https://sonarcloud.io/project/overview?id=siakhooi_python-terminalizer2asciinema
 
 ## Badges
 ![GitHub](https://img.shields.io/github/license/siakhooi/python-terminalizer2asciinema?logo=github)

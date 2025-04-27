@@ -1,6 +1,6 @@
 [project]
 name = "terminalizer2asciinema"
-version = "0.1.0"
+version = "0.2.0"
 description = "convert file in terminalizer format to asciinema format"
 authors = [
     {name = "Siak Hooi",email = "siakhooi@gmail.com"}
@@ -41,6 +41,7 @@ packages = [{include = "terminalizer2asciinema", from = "src"}]
 pytest = "^8.3.5"
 pytest-cov = "^6.1.1"
 flake8 = "^7.2.0"
+pytest-mock = "^3.14.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

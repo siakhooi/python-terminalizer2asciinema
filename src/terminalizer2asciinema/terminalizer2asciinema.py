@@ -3,27 +3,28 @@ import os
 from termcolor import colored
 import yaml
 import json
+from terminalizer2asciinema.util import get_current_timestamp, stdin_manager
 
 
 def error(s):
     print(colored(s, "red"))
 
 
-def get_current_timestamp():
-    import time
-
-    return int(time.time())
-
-
-def convert(inputfile):
+def get_file(inputfile):
+    if inputfile is None:
+        return stdin_manager()
 
     if not os.path.exists(inputfile):
         error(f"{inputfile} is not exist.")
         sys.exit(2)
 
+    return open(inputfile, "r")
+
+
+def convert(inputfile):
     output = []
 
-    with open(inputfile, "r") as f:
+    with get_file(inputfile) as f:
         data = yaml.safe_load(f)
         width = data["config"]["cols"]
         height = data["config"]["rows"]

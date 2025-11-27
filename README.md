@@ -18,6 +18,7 @@ $ terminalizer2asciinema yamlfile
 - https://pypi.org/project/terminalizer2asciinema/
 - https://github.com/siakhooi/python-terminalizer2asciinema
 - https://sonarcloud.io/project/overview?id=siakhooi_python-terminalizer2asciinema
+- https://qlty.sh/gh/siakhooi/projects/python-terminalizer2asciinema
 
 ## Badges
 ![GitHub](https://img.shields.io/github/license/siakhooi/python-terminalizer2asciinema?logo=github)
@@ -41,6 +42,10 @@ $ terminalizer2asciinema yamlfile
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/siakhooi/python-terminalizer2asciinema?label=GPR%20release&logo=github)
 ![GitHub all releases](https://img.shields.io/github/downloads/siakhooi/python-terminalizer2asciinema/total?color=33cb56&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/siakhooi/python-terminalizer2asciinema?logo=github)
+
+![Quality-Qlty](https://img.shields.io/badge/Quality-Qlty-purple)
+[![Maintainability](https://qlty.sh/gh/siakhooi/projects/python-terminalizer2asciinema/maintainability.svg)](https://qlty.sh/gh/siakhooi/projects/python-terminalizer2asciinema)
+[![Code Coverage](https://qlty.sh/gh/siakhooi/projects/python-terminalizer2asciinema/coverage.svg)](https://qlty.sh/gh/siakhooi/projects/python-terminalizer2asciinema)
 
 ![Quality-Sonar](https://img.shields.io/badge/Quality-SonarCloud-purple)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=siakhooi_python-terminalizer2asciinema&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=siakhooi_python-terminalizer2asciinema)

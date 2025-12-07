@@ -1,6 +1,6 @@
 [project]
 name = "terminalizer2asciinema"
-version = "0.2.0"
+version = "0.3.0"
 description = "convert file in terminalizer format to asciinema format"
 authors = [
     {name = "Siak Hooi",email = "siakhooi@gmail.com"}
@@ -17,7 +17,7 @@ classifiers = [
 
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
     "termcolor (>=3.0.1,<4.0.0)",
     "pyyaml (>=6.0.2,<7.0.0)"
